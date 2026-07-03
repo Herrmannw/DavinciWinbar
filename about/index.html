@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Learn about Da Vinci's Wine Lounge, a boutique wine lounge in Seabrook, Texas, focused on guided tastings, seated hospitality, and curated retail wine."
+    />
+    <meta name="theme-color" content="#050404" />
+    <meta property="og:title" content="About Da Vinci's Wine Lounge" />
+    <meta
+      property="og:description"
+      content="A boutique Seabrook wine lounge for guided tastings, relaxed table service, curated bottles, and thoughtful hospitality."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/assets/lounge-interior.webp" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <title>About | Da Vinci's Wine Lounge</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand-link" href="%BASE_URL%" aria-label="Da Vinci's Wine Lounge home">
+        <img src="/assets/davincis-logo.webp" alt="Da Vinci's Wine Lounge" width="1100" height="398" />
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
+        Menu
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-site-nav>
+        <a href="%BASE_URL%about/" aria-current="page">About</a>
+        <a href="%BASE_URL%#menu">Menu</a>
+        <a href="%BASE_URL%#tastings">Tastings</a>
+        <a href="%BASE_URL%visit/">Visit</a>
+        <a href="%BASE_URL%inquiries/">Inquiries</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero" aria-labelledby="about-title">
+        <picture class="page-hero-media">
+          <source srcset="/assets/lounge-interior.webp" type="image/webp" />
+          <img
+            src="/assets/lounge-interior.png"
+            alt="The candlelit Da Vinci's Wine Lounge interior"
+            width="1122"
+            height="1402"
+          />
+        </picture>
+        <div class="page-hero-shade" aria-hidden="true"></div>
+        <div class="section-shell page-hero-content">
+          <p class="eyebrow">About the lounge</p>
+          <h1 id="about-title">A boutique wine lounge built for slower evenings.</h1>
+          <p>
+            Da Vinci's brings guided pours, quiet tables, retail bottles, and light accompaniments together in a polished Seabrook setting.
+          </p>
+        </div>
+      </section>
+
+      <section class="page-section" aria-labelledby="idea-title">
+        <div class="section-shell page-grid">
+          <div>
+            <p class="section-kicker">The idea</p>
+            <h2 id="idea-title">Premium seated hospitality, without the rush.</h2>
+          </div>
+          <div class="rich-copy">
+            <p>
+              Da Vinci's is designed as a boutique wine lounge offering on-premise wine, beer, and limited alcoholic beverage service in a premium seated environment.
+            </p>
+            <p>
+              The room is centered on wine education, guided tastings, social gatherings, and relaxed table service, with a curated retail selection for guests to take home.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-band" aria-labelledby="expect-title">
+        <div class="section-shell split-layout">
+          <div class="image-panel">
+            <img src="/assets/davincis-logo.webp" alt="" width="1100" height="398" loading="lazy" />
+          </div>
+          <div class="text-panel">
+            <p class="section-kicker">What to expect</p>
+            <h2 id="expect-title">Curious wine, easy pairings, and a room made for conversation.</h2>
+            <ul class="detail-list" aria-label="Da Vinci's experience highlights">
+              <li>Guided tastings and wine education</li>
+              <li>Relaxed table service for social gatherings</li>
+              <li>Curated retail bottles, gifts, and accessories</li>
+              <li>Artisan cheese, charcuterie, crostini, and gourmet provisions</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="quiet-section" aria-labelledby="quiet-title">
+        <div class="section-shell page-grid">
+          <div>
+            <p class="section-kicker">Quiet by design</p>
+            <h2 id="quiet-title">Upscale, responsible, and neighborhood-minded.</h2>
+          </div>
+          <div class="statement-list">
+            <p>
+              Da Vinci's is not planned as a nightclub, dance floor, or late-night bar operation.
+            </p>
+            <p>
+              The focus is responsible alcohol service, customer education, and hospitality that feels refined, calm, and compatible with the neighborhood.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="section-shell footer-grid">
+        <img src="/assets/davincis-logo.webp" alt="Da Vinci's Wine Lounge" width="1100" height="398" loading="lazy" />
+        <p><a href="%BASE_URL%visit/">Plan your visit</a></p>
+        <p class="footer-note"><a href="%BASE_URL%inquiries/">Inquiries</a></p>
+      </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
