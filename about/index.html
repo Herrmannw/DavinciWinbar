@@ -14,17 +14,17 @@
       content="A boutique Seabrook wine lounge for guided tastings, relaxed table service, curated bottles, and thoughtful hospitality."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/assets/lounge-interior.webp" />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-    <link rel="stylesheet" href="/src/styles.css" />
+    <meta property="og:image" content="../public/assets/lounge-interior.webp" />
+    <link rel="icon" href="../public/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="../src/styles.css" />
     <title>About | Da Vinci's Wine Lounge</title>
   </head>
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
     <header class="site-header" data-header>
-      <a class="brand-link" href="%BASE_URL%" aria-label="Da Vinci's Wine Lounge home">
-        <img src="/assets/davincis-logo.webp" alt="Da Vinci's Wine Lounge" width="1100" height="398" />
+      <a class="brand-link" href="../" aria-label="Da Vinci's Wine Lounge home">
+        <img src="../public/assets/davincis-logo.webp" alt="Da Vinci's Wine Lounge" width="1100" height="398" />
       </a>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-toggle>
@@ -32,20 +32,20 @@
       </button>
 
       <nav class="site-nav" id="site-nav" aria-label="Primary navigation" data-site-nav>
-        <a href="%BASE_URL%about/" aria-current="page">About</a>
-        <a href="%BASE_URL%#menu">Menu</a>
-        <a href="%BASE_URL%#tastings">Tastings</a>
-        <a href="%BASE_URL%visit/">Visit</a>
-        <a href="%BASE_URL%inquiries/">Inquiries</a>
+        <a href="../about/" aria-current="page">About</a>
+        <a href="../#menu">Menu</a>
+        <a href="../#tastings">Tastings</a>
+        <a href="../visit/">Visit</a>
+        <a href="../inquiries/">Inquiries</a>
       </nav>
     </header>
 
     <main id="main">
       <section class="page-hero" aria-labelledby="about-title">
         <picture class="page-hero-media">
-          <source srcset="/assets/lounge-interior.webp" type="image/webp" />
+          <source srcset="../public/assets/lounge-interior.webp" type="image/webp" />
           <img
-            src="/assets/lounge-interior.png"
+            src="../public/assets/lounge-interior.png"
             alt="The candlelit Da Vinci's Wine Lounge interior"
             width="1122"
             height="1402"
@@ -81,7 +81,7 @@
       <section class="feature-band" aria-labelledby="expect-title">
         <div class="section-shell split-layout">
           <div class="image-panel">
-            <img src="/assets/davincis-logo.webp" alt="" width="1100" height="398" loading="lazy" />
+            <img src="../public/assets/davincis-logo.webp" alt="" width="1100" height="398" loading="lazy" />
           </div>
           <div class="text-panel">
             <p class="section-kicker">What to expect</p>
@@ -116,12 +116,12 @@
 
     <footer class="site-footer">
       <div class="section-shell footer-grid">
-        <img src="/assets/davincis-logo.webp" alt="Da Vinci's Wine Lounge" width="1100" height="398" loading="lazy" />
-        <p><a href="%BASE_URL%visit/">Plan your visit</a></p>
-        <p class="footer-note"><a href="%BASE_URL%inquiries/">Inquiries</a></p>
+        <img src="../public/assets/davincis-logo.webp" alt="Da Vinci's Wine Lounge" width="1100" height="398" loading="lazy" />
+        <p><a href="../visit/">Plan your visit</a></p>
+        <p class="footer-note"><a href="../inquiries/">Inquiries</a></p>
       </div>
     </footer>
 
-    <script type="module" src="/src/main.js"></script>
+    <script type="module" src="../src/main.js"></script>
   </body>
 </html>
