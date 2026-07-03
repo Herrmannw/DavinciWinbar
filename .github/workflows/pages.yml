@@ -53,6 +53,9 @@ jobs:
     needs: build
 
     steps:
+      - name: Wait for generated Pages deployment
+        run: sleep 45
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
